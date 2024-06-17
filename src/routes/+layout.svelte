@@ -1,6 +1,7 @@
 <script>
     import "../app.css";
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+    import { DarkMode } from 'flowbite-svelte';
 </script>
 
 <Navbar  >
@@ -13,7 +14,8 @@
         <NavLi href="/about">About</NavLi>
         <NavLi href="/projects">Projects</NavLi>
         <NavLi href="/resume">Resume</NavLi>
+        <DarkMode />
     </NavUl>
-  </Navbar>
+</Navbar>
 
 <slot />
