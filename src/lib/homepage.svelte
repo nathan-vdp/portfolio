@@ -2,11 +2,7 @@
 	import Me from './assests/me.jpg';
 </script>
 
-
 <div class="container flex justify-center items-center h-screen font-poppins">
-    <div class="hero-image">
-        <img class="w-52 rounded-full border-5 border-white" src={Me} alt="Me" />
-    </div>
     <div class="flex flex-col items-center md:items-start ml-5">
         <h1 class="text-5xl font-bold text-black font-poppins dark:text-white text-center md:text-left">Front-End Developer</h1>
         <p class="text-lg mt-5 dark:text-white text-center md:text-left">Hi, I'm Nathan. A passionate front-end developer <br>
@@ -16,6 +12,9 @@
             <a href="https://github.com/nathan-vdp" class="text-3xl hover:text-purple-500 mt-3 dark:text-white dark:hover:text-purple-500"><i class="bx bxl-github"></i></a>
             <a href="https://www.linkedin.com/in/nathan-van-de-pieterman-869446250/" class="text-3xl hover:text-purple-500 mt-3 dark:text-white dark:hover:text-purple-500"><i class="bx bxl-linkedin-square icon"></i></a>
         </div>
+    </div>
+    <div class="hero-image">
+        <img class="w-52 rounded-full" src={Me} alt="Me" />
     </div>
 </div>
 
