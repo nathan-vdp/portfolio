@@ -1,8 +1,9 @@
 <script>
 	import Me from './assests/me.jpg';
+    import Techstack from '$lib/Techstack.svelte';
 </script>
 
-<div class="container flex flex-col-reverse md:flex-row justify-center items-center h-screen font-poppins">
+<div id="about" class="container flex flex-col-reverse md:flex-row justify-center items-center h-screen font-poppins">
     <div class="flex flex-col items-center md:items-start ml-5">
         <h1 class="text-5xl font-bold text-white font-poppins text-center md:text-left">Front-End Developer</h1>
         <p class="text-lg mt-5 text-center md:text-left text-white">Hi, I'm Nathan. A passionate front-end developer <br>
@@ -12,6 +13,7 @@
             <a href="https://github.com/nathan-vdp" class="text-3xl hover:text-purple-500 mt-3 text-white dark:hover:text-purple-500"><i class="bx bxl-github"></i></a>
             <a href="https://www.linkedin.com/in/nathan-van-de-pieterman-869446250/" class="text-3xl hover:text-purple-500 mt-3 text-white dark:hover:text-purple-500"><i class="bx bxl-linkedin-square icon"></i></a>
         </div>
+        <Techstack />
     </div>
     <div class="hero-image">
         <img class="w-52 rounded-full" src={Me} alt="Me" />
