@@ -1,10 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
-    background-image: url("./lib/assests/future.png");
-    background-size: cover;
-    background-color: #6819fe;
-    background-attachment: fixed;
-}

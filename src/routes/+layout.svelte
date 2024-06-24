@@ -14,5 +14,4 @@
         <NavLi href="#resume">Resume</NavLi>
     </NavUl>
 </Navbar>
-
 <slot />
