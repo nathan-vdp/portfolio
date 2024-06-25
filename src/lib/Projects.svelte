@@ -1,5 +1,4 @@
 <script>
-    import { div } from 'three/examples/jsm/nodes/Nodes.js';
     import Background from '../lib/assests/about-img.62b47e7f183d4b4e9feb.webp';
 </script>
 
