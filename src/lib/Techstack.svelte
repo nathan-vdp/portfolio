@@ -9,7 +9,7 @@
                 <img src="https://skillicons.dev/icons?i=js,tailwind" alt="skill-icon">
             </li>
             <li>
-                <img src="https://skillicons.dev/icons?i=svelte,bootstrap" alt="skill-icon">
+                <img src="https://skillicons.dev/icons?i=svelte" alt="skill-icon">
             </li>
         </ul>
     </div>
