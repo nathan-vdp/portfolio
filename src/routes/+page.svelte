@@ -1,6 +1,7 @@
 <script>
     import Header from '$lib/Header.svelte';
-    import Background from '../lib/assests/future.png';
+    import Background from '$lib/assests/future.png';
+    import About from '../lib/About.svelte';
 </script>
 
 <main>
@@ -10,6 +11,7 @@
             <Header />
         </div>
     </div>
+    <About />
 </main>
 
 <style>
