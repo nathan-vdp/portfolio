@@ -6,10 +6,10 @@
                 <img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon">
             </li>
             <li>
-                <img src="https://skillicons.dev/icons?i=js,tailwind" alt="skill-icon">
+                <img src="https://skillicons.dev/icons?i=js,svelte" alt="skill-icon">
             </li>
             <li>
-                <img src="https://skillicons.dev/icons?i=svelte" alt="skill-icon">
+                <img src="https://skillicons.dev/icons?i=tailwind" alt="skill-icon">
             </li>
         </ul>
     </div>

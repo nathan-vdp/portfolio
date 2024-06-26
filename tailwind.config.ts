@@ -1,8 +1,12 @@
-/** @type {import('tailwindcss').Config} */
+import flowbitePlugin from 'flowbite/plugin'
+
+import type { Config } from 'tailwindcss';
+
 export default {
-  content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
-  theme: {
-    extend: {
+	content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
+
+	theme: {
+		extend: {
       colors: {
         // flowbite-svelte
         primary: {
@@ -18,8 +22,8 @@ export default {
           900: '#A5371B'
         }
       }
-    },
-  },
-  plugins: [require('flowbite/plugin')],
-  darkMode: 'class',
-}
+    }
+	},
+
+	plugins: [flowbitePlugin]
+} as Config;
