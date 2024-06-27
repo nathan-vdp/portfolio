@@ -2,7 +2,7 @@
     import Background from '../lib/assests/about-img.62b47e7f183d4b4e9feb.webp';
 </script>
 
-<main id="projects" class="flex justify-center items-center mt-20">
+<main id="projects" class="flex justify-center items-center mt-20 xl:ml-80">
     <div class="flex justify-center items-center">
         <div class="flex flex-col sm:flex-row items-center text-center sm:text-left">
             <img src={Background} alt="background" class="rounded-lg w-80 mb-4 sm:mb-0 sm:mr-5" />
