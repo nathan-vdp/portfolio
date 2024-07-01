@@ -13,7 +13,10 @@
         </div>
     </div>
     <About />
-    <div class="mt-36">
+    <div class="mt-96 bg-slate-50 p-24">
+        <div class="flex justify-center">
+            <h1 class="font-bold text-4xl mb-20">Projects</h1>
+        </div>
         <Projects />
     </div>
 </main>
