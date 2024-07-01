@@ -1,5 +1,5 @@
 <script>
-    import Background from '../lib/assests/about-img.62b47e7f183d4b4e9feb.webp';
+    import Background from '../lib/assets/about-img.62b47e7f183d4b4e9feb.webp';
 </script>
 
 <main id="projects" class="flex justify-center items-center mt-20 xl:ml-80">

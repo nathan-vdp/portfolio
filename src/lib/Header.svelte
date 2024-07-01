@@ -1,5 +1,5 @@
 <script>
-	import Me from './assests/me.jpg';
+	import Me from './assets/me.jpg';
     import Techstack from '$lib/Techstack.svelte';
 </script>
 

@@ -1,6 +1,6 @@
 <script>
     import Header from '$lib/Header.svelte';
-    import Background from '$lib/assests/future.png';
+    import Background from '$lib/assets/future.png';
     import About from '$lib/About.svelte';
     import Projects from '$lib/Projects.svelte';
 </script>
