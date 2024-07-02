@@ -11,7 +11,7 @@
         <NavLi href="#home">Home</NavLi>
         <NavLi href="#about">About</NavLi>
         <NavLi href="#projects">Projects</NavLi>
-        <NavLi href="#resume">Resume</NavLi>
+        <NavLi href="resume">Resume</NavLi>
     </NavUl>
 </Navbar>
 <slot />
